@@ -1,0 +1,79 @@
+* {
+    box-sizing: inherit;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: #3fd0d4;
+    --text-color: #505050;
+    --white-color: #fff;
+    --black-color: #000;
+}
+
+::-moz-selection {
+    background: #3fd0d4;
+    color: #fff;
+}
+
+::selection {
+    background: #3fd0d4;
+    color: #fff;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+}
+
+.Slipdown {
+    transform: translateY(-10%);
+    transition: 0.2s linear;
+}
+
+.OpacityRemove {
+    opacity: 0;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+/* animation */
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes growth {
+    from {
+        transform: scale(var(--growth-from));
+    }
+    to {
+        transform: scale(var(--growth-to));
+    }
+}
+
+@keyframes growth {
+    from {
+        transform: scale(var(--growth-from));
+    }
+    to {
+        transform: scale(var(--growth-to));
+    }
+}

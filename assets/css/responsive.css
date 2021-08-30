@@ -1,0 +1,196 @@
+/* PC */
+
+@media only screen and (min-width: 64em) {
+    .hidden-pc {
+        display: none;
+    }
+}
+
+/* Tablet and Mobile */
+
+@media only screen and (max-width: 63.9375em) {
+    .hidden-mobile-tablet {
+        display: none;
+    }
+    .header {
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 0;
+        z-index: 10;
+        height: 69px;
+        background-color: var(--primary-color);
+    }
+    .header__wrapper {
+        display: flex;
+        align-items: center;
+    }
+    .header__navbar-user {
+        float: right;
+    }
+    .header__navbar-user-link {
+        padding: 0;
+    }
+    .header__navbar-user {
+        height: 46px;
+        width: 46px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .header__navbar-user-icon {
+        font-size: 2rem;
+        padding: 18px 0;
+    }
+    .container__mobile-navbar {
+        display: block;
+    }
+    .container__view-img {
+        padding-top: 60px;
+        width: 100%;
+    }
+    .container__experience {
+        text-align: center;
+    }
+    .container__experience-item:nth-of-type(2),
+    .container__experience-item:last-child {
+        padding-left: 8px;
+    }
+    .container__experience-img {
+        margin-right: auto;
+        margin-top: 60px;
+    }
+    .container__video-play {
+        width: 90vw;
+        margin: 0 auto;
+        left: 5%;
+    }
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 46.25em) and (max-width:63.9375em) {
+    .grid.wide {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .pdl-30 {
+        padding-left: 30px;
+    }
+    .mb-52 {
+        margin-bottom: 52px;
+    }
+    .hidden-tablet {
+        display: none;
+    }
+    .header__wrapper {
+        width: 600px;
+        margin: 0 auto;
+        height: 100%;
+    }
+    .slider-left-item {
+        height: 355px;
+        width: 384px;
+    }
+    .slider-right-item {
+        width: 186px;
+        height: 355px;
+    }
+    .container__sliders {
+        margin-top: 116px;
+        height: 355px;
+        z-index: -2;
+    }
+    .container__datas {
+        padding-top: 0;
+    }
+    .container__data-title,
+    .container__data-desc {
+        text-align: center;
+        display: block;
+    }
+    .container__data-img {
+        padding: 70px 0 42px;
+    }
+    .container__product-item:nth-of-type(3) .container__product-img,
+    .container__product-camping {
+        height: 596.5px;
+    }
+    .container__product {
+        margin-bottom: 3px;
+    }
+    .footer__content-social-title,
+    .footer__content-sub-title {
+        margin: 65px 0 32px;
+    }
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 46.1875em) {
+    .grid.wide {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .mt60 {
+        margin-top: 60px;
+    }
+    .mb46 {
+        margin-bottom: 46px;
+    }
+    .mb24 {
+        margin-bottom: 24px;
+    }
+    .hidden-mobile {
+        display: none;
+    }
+    .header__wrapper {
+        width: 300px;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .auth-form {
+        width: 90vw;
+        margin: 0 auto;
+    }
+    .slider-left-item {
+        height: 365px;
+        width: 300px;
+        background-size: cover;
+    }
+    .slider-right-item {
+        height: 574px;
+        width: 300px;
+        bottom: 0;
+    }
+    .container__sliders {
+        padding-top: 116px;
+        height: 1086px;
+        width: 300px;
+        z-index: -2;
+        position: relative;
+    }
+    .container__data-img {
+        width: 100%;
+    }
+    .container__data-title {
+        font-size: 2.8rem;
+    }
+    .container__best-tours-title {
+        font-size: 3.6rem;
+    }
+    .container__best-tours-desc {
+        font-size: 1.6em;
+    }
+    .container__experience-title {
+        font-size: 2.8rem;
+    }
+    .container__product-item:nth-of-type(3) .container__product-img,
+    .container__product-camping {
+        height: 630px;
+    }
+    .footer__wrapper-content {
+        padding: 106px 40px 78px;
+    }
+}

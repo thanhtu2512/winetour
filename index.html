@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine Tours - SetSail</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="icon" href="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/cropped-favicon-1-192x192.png" sizes="192x192" />
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <div class="main">
+        <header class="header">
+            <div class="header__wrapper">
+                <div class="header__info hidden-mobile-tablet">
+                    <ul class="header__info-list">
+                        <li class="header__info-item">
+                            <i class="header__info-icon fal fa-envelope">
+                            </i>
+                            <a class="header__info-link" href="mailto:setsail@qode.com">setsail@qode.com</a>
+                        </li>
+                        <li class="header__info-item">
+                            <i class="header__info-icon fas fa-phone-alt">
+                            </i>
+                            <a class="header__info-link" href="tel: 1 562 867 5309">1 562 867 5309</a>
+                        </li>
+                        <li class="header__info-item">
+                            <i class="header__info-icon fal fa-map-marker-alt">
+                            </i>
+                            <a class="header__info-link" href="http://maps.google.com/?q=Broadway & Morris St, New York">Broadway & Morris St, New
+                                York</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__navbar  hidden-mobile-tablet">
+                    <ul class="header__social-list">
+                        <li class="header__social-item">
+                            <a href="#" class="header__social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="header__social-item">
+                            <a href="#" class="header__social-link">
+                                <i class="fab fa-pinterest-p"></i>
+                            </a>
+                        </li>
+                        <li class="header__social-item">
+                            <a href="#" class="header__social-link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="header__social-item">
+                            <a href="#" class="header__social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="header__navbar-language">
+                        <a href="#" class="header__navbar-language-link">
+                            English
+                            <i class="header__navbar-language-icon far fa-chevron-down"></i>
+                        </a>
+                        <ul class="header-language__option">
+                            <li class="header-language__select">
+                                <a href="#" class="header-language__link">French</a>
+                            </li>
+                            <li class="header-language__select">
+                                <a href="#" class="header-language__link">German</a>
+                            </li>
+                            <li class="header-language__select">
+                                <a href="#" class="header-language__link">Italian</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header__navbar-user js-user-btn">
+                        <a href="#" class="header__navbar-user-link">
+                            <i class="header__navbar-user-icon far fa-user"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="header__mobile-wrapper hidden-pc">
+                    <label for="nav__mobile-checkbox" class="header__mobile-wrap-icon">
+                        <i class="header__mobile-nav-icon fal fa-align-right"></i>
+                    </label>
+                    <img src="./assets/img/logo-mobile-img.png" alt="logo" class="header__mobile-img-logo">
+                    <div class="header__navbar-user js-user-btn">
+                        <a href="#" class="header__navbar-user-link">
+                            <i class="header__navbar-user-icon far fa-user"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <!-- Logo -->
+            <div class="container__logo hidden-mobile-tablet">
+                <a href="#">
+                    <img src="./assets/img/logo.png" class="container__logo-img">
+                </a>
+            </div>
+
+            <!-- Menu da cap -->
+            <div class="container__menu hidden-mobile-tablet">
+                <ul class="container__menu-main">
+                    <li class="container__menu-main-item">
+                        <a class="container__menu-main-link container__menu-main-item--active" href="#">Home</a>
+                        <ul class="container__submenu-list-1 Slipdown">
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">Travel Agency</a>
+                            </li>
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">Winter Holidays</a>
+                            </li>
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">Exotics Destinations</a>
+                            </li>
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">Summer Holidays</a>
+                            </li>
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">City Tours</a>
+                            </li>
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">New Year Trips</a>
+                            </li>
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">Destinations Carousel</a>
+                            </li>
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link container__menu-main-item--active">Wine
+                                    Tours</a>
+                            </li>
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">Vacation Showcase</a>
+                            </li>
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">Landing</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="container__menu-main-item">
+                        <a class="container__menu-main-link" href="#">Pages</a>
+                        <ul class="container__submenu-list-2 Slipdown">
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">About Us</a>
+                            </li>
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">What We Offer</a>
+                            </li>
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">Our Team</a>
+                            </li>
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">Get In Touch</a>
+                            </li>
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">Contact Us</a>
+                            </li>
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">FAQ Page</a>
+                            </li>
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">Coming soon</a>
+                            </li>
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">Error Page</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="container__menu-main-item">
+                        <a class="container__menu-main-link" href="#">Destinations</a>
+                        <ul class="container__submenu-list-3 Slipdown">
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">Destinations List</a>
+                            </li>
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">Destinations Slider</a>
+                            </li>
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">Destinations Item</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="container__menu-main-item">
+                        <a class="container__menu-main-link" href="#">Tours</a>
+                        <ul class="container__submenu-list-4 Slipdown">
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">Standard List</a>
+                            </li>
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">Gallery List</a>
+                            </li>
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">Split List</a>
+                            </li>
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">Tour Item</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="container__menu-main-item">
+                        <a class="container__menu-main-link" href="#">Blog</a>
+                        <ul class="container__submenu-list-5 Slipdown">
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">Blog Masonry</a>
+                            </li>
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">Blog Standard</a>
+                                <i class="container__submenu-icon-right far fa-chevron-right"></i>
+                                <ul class="container__sub-submenu-list-1 OpacityRemove">
+                                    <li class="container__sub-submenu-item">
+                                        <a href="#" class="container__sub-submenu-link">Right Sidebar</a>
+                                    </li>
+                                    <li class="container__sub-submenu-item">
+                                        <a href="#" class="container__sub-submenu-link">Left Sidebar</a>
+                                    </li>
+                                    <li class="container__sub-submenu-item">
+                                        <a href="#" class="container__sub-submenu-link">Without Sidebar</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">Post Types</a>
+                                <i class="container__submenu-icon-right far fa-chevron-right"></i>
+                                <ul class="container__sub-submenu-list-2 OpacityRemove">
+                                    <li class="container__sub-submenu-item">
+                                        <a href="#" class="container__sub-submenu-link">Standard</a>
+                                    </li>
+                                    <li class="container__sub-submenu-item">
+                                        <a href="#" class="container__sub-submenu-link">Gallery</a>
+                                    </li>
+                                    <li class="container__sub-submenu-item">
+                                        <a href="#" class="container__sub-submenu-link">Link</a>
+                                    </li>
+                                    <li class="container__sub-submenu-item">
+                                        <a href="#" class="container__sub-submenu-link">Quote</a>
+                                    </li>
+                                    <li class="container__sub-submenu-item">
+                                        <a href="#" class="container__sub-submenu-link">Video</a>
+                                    </li>
+                                    <li class="container__sub-submenu-item">
+                                        <a href="#" class="container__sub-submenu-link">Audio</a>
+                                    </li>
+                                    <li class="container__sub-submenu-item">
+                                        <a href="#" class="container__sub-submenu-link">No Sidebar</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="container__menu-main-item">
+                        <a class="container__menu-main-link" href="#">Shop</a>
+                        <ul class="container__submenu-list-6 Slipdown">
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">Product List</a>
+                            </li>
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">Product Single</a>
+                            </li>
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">Shop Layouts</a>
+                                <i class="container__submenu-icon-right far fa-chevron-right"></i>
+                                <ul class="container__sub-submenu-list-3 OpacityRemove">
+                                    <li class="container__sub-submenu-item">
+                                        <a href="#" class="container__sub-submenu-link">Three Columns</a>
+                                    </li>
+                                    <li class="container__sub-submenu-item">
+                                        <a href="#" class="container__sub-submenu-link">Four Columns</a>
+                                    </li>
+                                    <li class="container__sub-submenu-item">
+                                        <a href="#" class="container__sub-submenu-link">Full Width</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="container__submenu-item">
+                                <a href="#" class="container__submenu-link">Shop Pages</a>
+                                <i class="container__submenu-icon-right far fa-chevron-right"></i>
+                                <ul class="container__sub-submenu-list-4 OpacityRemove">
+                                    <li class="container__sub-submenu-item">
+                                        <a href="#" class="container__sub-submenu-link">My Account</a>
+                                    </li>
+                                    <li class="container__sub-submenu-item">
+                                        <a href="#" class="container__sub-submenu-link">Cart</a>
+                                    </li>
+                                    <li class="container__sub-submenu-item">
+                                        <a href="#" class="container__sub-submenu-link">Checkout</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="container__menu-main-item">
+                        <a class="container__menu-main-link" href="#">Elements</a>
+                        <div class="container__menu-child-wrapper Slipdown OpacityRemove">
+                            <div class="grid wide">
+                                <div class="row">
+                                    <div class="col l-3 container__menu-child">
+                                        <a href="#">
+                                            <h4 class="container__menu-child-active">FEATURED</h4>
+                                        </a>
+                                        <ul class="container__menu-child-list">
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Tour</a>
+                                            </li>
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Tour Carousel</a>
+                                            </li>
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Tours Filter</a>
+                                            </li>
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Destination With
+                                                    Tours</a>
+                                            </li>
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Destination List</a>
+                                            </li>
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Destination Fullscreen
+                                                    Slider</a>
+                                            </li>
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Fullscreen Sections</a>
+                                            </li>
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Reviews Carousel</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col l-3 container__menu-child">
+                                        <a href="#">
+                                            <h4 class="container__menu-child-active">PRESENTATION</h4>
+                                        </a>
+                                        <ul class="container__menu-child-list">
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Team</a>
+                                            </li>
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Blog list</a>
+                                            </li>
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Shop List</a>
+                                            </li>
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Testimonials</a>
+                                            </li>
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Banner</a>
+                                            </li>
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Clients</a>
+                                            </li>
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Parallax Sections</a>
+                                            </li>
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Video Button</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col l-3 container__menu-child">
+                                        <a href="#">
+                                            <h4 class="container__menu-child-active">CLASSIC</h4>
+                                        </a>
+                                        <ul class="container__menu-child-list">
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Accordions</a>
+                                            </li>
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Tabs</a>
+                                            </li>
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Buttons</a>
+                                            </li>
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Google Maps</a>
+                                            </li>
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Contact form</a>
+                                            </li>
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Progress Bar</a>
+                                            </li>
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">CountDown</a>
+                                            </li>
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Counters</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col l-3 container__menu-child">
+                                        <a href="#">
+                                            <h4 class="container__menu-child-active">TYPOGRAPHY</h4>
+                                        </a>
+                                        <ul class="container__menu-child-list">
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Headings</a>
+                                            </li>
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Columns</a>
+                                            </li>
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Sections Title</a>
+                                            </li>
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Blockquote</a>
+                                            </li>
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Dropcaps</a>
+                                            </li>
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Highlights</a>
+                                            </li>
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Separators</a>
+                                            </li>
+                                            <li class="container__menu-child-item">
+                                                <a href="#" class="container__menu-child-link">Custom Font</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Navbar mobile -->
+            <input type="checkbox" hidden class="header__mobile-checkbox" name="nav__mobile-checkbox" id="nav__mobile-checkbox">
+            <div class="container__mobile-navbar">
+                <div class="grid wide">
+                    <ul class="container__mobile-navbar-list mb10">
+                        <li class="container__mobile-navbar-item container__mobile-navbar-item--active">
+                            <span>Home</span>
+                            <i class="container__mobile-navbar-icon far fa-chevron-right"></i>
+                        </li>
+                        <li class="container__mobile-navbar-item">
+                            <span>Pages</span>
+                            <i class="container__mobile-navbar-icon far fa-chevron-right"></i>
+                        </li>
+                        <li class="container__mobile-navbar-item">
+                            <span>Destinations</span>
+                            <i class="container__mobile-navbar-icon far fa-chevron-right"></i>
+                        </li>
+                        <li class="container__mobile-navbar-item">
+                            <span>Tours</span>
+                            <i class="container__mobile-navbar-icon far fa-chevron-right"></i>
+                        </li>
+                        <li class="container__mobile-navbar-item">
+                            <span>Tours</span>
+                            <i class="container__mobile-navbar-icon far fa-chevron-right"></i>
+                        </li>
+                        <li class="container__mobile-navbar-item">
+                            <span>Shop</span>
+                            <i class="container__mobile-navbar-icon far fa-chevron-right"></i>
+                        </li>
+                        <li class="container__mobile-navbar-item">
+                            <span>Elements</span>
+                            <i class="container__mobile-navbar-icon far fa-chevron-right"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Slider -->
+            <div class="grid wide">
+                <div class="container__sliders">
+                    <div class="row">
+                        <div class="slider-1-left col l-8 m-8 c-12">
+                            <div class="slider-left-item" style="background-image: url(./assets/img/travel-slide-1.jpg);"></div>
+                        </div>
+                        <div class="slider-1-right col l-4 m-4 c-12">
+                            <div class="slider-right-item" style="background-image: url(./assets/img/travel-slide-2.jpg);"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="slider-2-left col l-8 m-8 c-12">
+                            <div class="slider-left-item" style="background-image: url(./assets/img/travel-slide-3.jpg);"></div>
+                        </div>
+                        <div class="slider-2-right col l-4 m-4 c-12">
+                            <div class="slider-right-item" style="background-image: url(./assets/img/travel-slide-4.jpg);"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="slider-3-left col l-8 m-8 c-12">
+                            <div class="slider-left-item" style="background-image: url(./assets/img/travel-slide-5.jpg);"></div>
+                        </div>
+                        <div class="slider-3-right col l-4 m-4 c-12">
+                            <div class="slider-right-item" style="background-image: url(./assets/img/travel-slide-6.jpg);"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid wide">
+                <!-- Data bar -->
+                <div data-aos="fade-down" class="container__datas">
+                    <div class="row">
+                        <div class="col l-5 l-o-0 m-o-2 c-12">
+                            <img src="./assets/img/travel-img-1.png" class="container__data-img">
+                        </div>
+                        <div class="col l-7 m-12 c-12 container__data-content">
+                            <span class="container__data-title">Our Popular Tours</span>
+                            <span class="container__data-desc">Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+                                tellus. Phasellus viver ra nulla ut metus varius laoreet. Quisque rutrum.</span>
+                            <div class="container__data-info">
+                                <div class="container__data">
+                                    <h3 class="container__data-name">Countryside</h3>
+                                    <div class="container__data-per">76</div>
+                                    <span class="container__data-bar"></span>
+                                    <span class="container__data-fill-bar countryside"></span>
+                                </div>
+                                <div class="container__data">
+                                    <h3 class="container__data-name">Vineyard</h3>
+                                    <div class="container__data-per">92</div>
+                                    <span class="container__data-bar"></span>
+                                    <span class="container__data-fill-bar vineyard"></span>
+                                </div>
+                                <div class="container__data">
+                                    <h3 class="container__data-name">Wine Tasting</h3>
+                                    <div class="container__data-per">86</div>
+                                    <span class="container__data-bar"></span>
+                                    <span class="container__data-fill-bar wine-tasting"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- img view -->
+                <img data-aos="fade-down" src="./assets/img/travel-img-2.jpg" class="container__view-img">
+
+                <!-- Best tour -->
+                <div data-aos="fade-down" class="container__best-tours">
+                    <h1 class="container__best-tours-title">The Best Tours</h1>
+                    <p class="container__best-tours-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aene an <br> commodo ligula eget dolor. Aenean massa. Cum sociis</p>
+                </div>
+
+                <!-- Product Tours -->
+                <div data-aos="fade-down" class="container__products">
+                    <div class="row">
+                        <div class="col l-3 m-6 c-12 container__product-item ">
+                            <a href="#">
+                                <div class="container__product">
+                                    <img src="./assets/img/1.jpg" class="container__product-img">
+                                    <div class="container__product-info">
+                                        <h5 class="container__product-name">Wine Festival</h5>
+                                        <span class="container__product-price">$550</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="container__product">
+                                    <img src="./assets/img/4.jpg" class="container__product-img">
+                                    <div class="container__product-info">
+                                        <h5 class="container__product-name">Champagne</h5>
+                                        <span class="container__product-price">$2130</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col l-3 m-6 c-12 container__product-item">
+                            <a href="#">
+                                <div class="container__product">
+                                    <img src="./assets/img/2.jpg" class="container__product-img">
+                                    <div class="container__product-info">
+                                        <h5 class="container__product-name">Wine Tasting</h5>
+                                        <span class="container__product-price">$920</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="container__product">
+                                    <img src="./assets/img/5.jpg" class="container__product-img">
+                                    <div class="container__product-info">
+                                        <h5 class="container__product-name">Villages</h5>
+                                        <span class="container__product-price">$850</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col l-3 m-6 c-12 container__product-item">
+                            <div class="container__product-camping mb24">
+                                <a href="#">
+                                    <img src="./assets/img/travel-slide-4.jpg" class="container__product-img">
+                                    <div class="container__product-info-camping">
+                                        <h5 class="container__product-name">Camping</h5>
+                                        <span class="container__product-price">$1550</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-12 container__product-item">
+                            <a href="#">
+                                <div class="container__product">
+                                    <img src="./assets/img/3.jpg" class="container__product-img">
+                                    <div class="container__product-info">
+                                        <h5 class="container__product-name">Harvest</h5>
+                                        <span class="container__product-price">$2600</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="container__product">
+                                    <img src="./assets/img/6.jpg" class="container__product-img">
+                                    <div class="container__product-info">
+                                        <h5 class="container__product-name">Local Wines</h5>
+                                        <span class="container__product-price">$1300</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CountUp Number -->
+                <div data-aos="fade-down" class="container__count-number">
+                    <div class="row">
+                        <div class="col l-3 m-6 c-12 container__count-item mb-52 mb46">
+                            <span class="container__count-item-title">45</span>
+                            <h5 class="container__count-item-name">Glasses of Wine</h5>
+                            <p class="container__count-item-desc">Cap at perspic iatis unde omnis iste natus error sit volup tatem</p>
+                        </div>
+                        <div class="col l-3 m-6 c-12 container__count-item mb-52 mb46">
+                            <span class="container__count-item-title">126</span>
+                            <h5 class="container__count-item-name">Years of experience</h5>
+                            <p class="container__count-item-desc">Sop ut perspic iatis ande emnis iste natus error sit volup fatom</p>
+                        </div>
+                        <div class="col l-3 m-6 c-12 container__count-item mb46">
+                            <span class="container__count-item-title">452</span>
+                            <h5 class="container__count-item-name">Unique Wines</h5>
+                            <p class="container__count-item-desc">Sed ut perspic iatis unde omnis iste natus error sit volup tatem</p>
+                        </div>
+                        <div class="col l-3 m-6 c-12 container__count-item">
+                            <span class="container__count-item-title">247</span>
+                            <h5 class="container__count-item-name">Sorts of Wine</h5>
+                            <p class="container__count-item-desc">Cap of qerspic iatis ande umnis lcte natus error sit volup fatem</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video -->
+                <div data-aos="fade-down" class="container__video">
+                    <div class="container__video-bg-btn">
+                        <img src="./assets/img/travel-video-button-img.jpg" class="container__video-img">
+                        <img src="./assets/img/play-button.png" class="container__video-play-btn">
+                    </div>
+                    <div class="container__video-modal">
+                        <iframe class="container__video-play" src="" width="960/embed/?moog_width=960" height="540" frameborder="no" style="display: none;"></iframe>
+                    </div>
+                </div>
+
+                <!-- Our Popular Tours -->
+                <div data-aos="fade-down" class="row container__experience">
+                    <div class="col l-7">
+                        <div class="container__experience-intro">
+                            <h2 class="container__experience-title">Our Popular Tours</h2>
+                            <p class="container__experience-story">Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo</p>
+                        </div>
+                        <div class="row">
+                            <div class="col l-6 container__experience-item">
+                                <img src="./assets/img/travel-custom-img-1.png">
+                                <p class="container__experience-item-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                            </div>
+                            <div class="col l-6 container__experience-item">
+                                <img src="./assets/img/travel-custom-img-3.png">
+                                <p class="container__experience-item-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                            </div>
+                            <div class="col l-6 container__experience-item">
+                                <img src="./assets/img/travel-custom-img-4.png">
+                                <p class="container__experience-item-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                            </div>
+                            <div class="col l-6 container__experience-item">
+                                <img src="./assets/img/travel-custom-img-2.png">
+                                <p class="container__experience-item-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./assets/img/travel-img-3.png" class="container__experience-img">
+                </div>
+            </div>
+            <a href="#" data-aos="fade-in" data-aos-offset="700" class="btn-go-home">
+                <span class="btn-go-home-link">TOP</span>
+            </a>
+        </div>
+
+        <footer class="footer">
+            <div class="footer__wrapper-content">
+                <div class="footer__content">
+                    <div class="row">
+                        <div class="col l-3 m-6 c-12">
+                            <a class="footer__content-logo-link" href=""><img src="./assets/img/logo.png" alt="logo"
+                                    class="footer__content-contact-logo"></a>
+                            <span class="footer__content-contact-desc">Lorem ipsum dolor sit ametco nsec te tuer
+                                adipiscing elitae</span>
+                            <ul class="footer__content-contact-list">
+                                <li class="footer__content-contact-item">
+                                    <a href="mailto:setsail@qode.com" class="footer__content-contact-link">
+                                        <i class="footer__content-contact-icon fal fa-envelope"></i>
+                                        setsail@qode.com
+                                    </a>
+                                </li>
+                                <li class="footer__content-contact-item">
+                                    <a href="tel: 1 562 867 5309" class="footer__content-contact-link">
+                                        <i class="footer__content-contact-icon fas fa-phone-alt"></i>
+                                        1 562 867 5309
+                                    </a>
+                                </li>
+                                <li class="footer__content-contact-item">
+                                    <a href="http://maps.google.com/?q=Broadway & Morris St, New York" class="footer__content-contact-link">
+                                        <i class="footer__content-contact-icon fal fa-map-marker-alt"></i>
+                                        Broadway & Morris St, New York
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-3 m-6 c-12 pdl-30 mt60">
+                            <h5 class="footer__content-posts-title">Our Recent Posts</h5>
+                            <div class="footer__content-posts-info">
+                                <a href="#" class="footer__content-posts-place">Visit Thailand, Bali And China</a>
+                                <a href="#" class="footer__content-posts-time">September 7, 2016</a>
+                            </div>
+                            <div class="footer__content-posts-info">
+                                <a href="#" class="footer__content-posts-place">The Sound Of Our Jungle</a>
+                                <a href="#" class="footer__content-posts-time">September 7, 2016</a>
+                            </div>
+                            <div class="footer__content-posts-info">
+                                <a href="#" class="footer__content-posts-place">New Year, New Resolutions!</a>
+                                <a href="#" class="footer__content-posts-time">September 7, 2016</a>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-12 mt60">
+                            <h5 class="footer__content-sub-title">Subscribe to our Newsletter</h5>
+                            <span class="footer__content-sub-desc">Etiam rhoncus. Maecenas temp us, tellus eget
+                                condimentum rho</span>
+                            <form action="">
+                                <label class="footer__content-wrap-input" for="input-name">
+                                    <i class="footer__content-sub-input-icon fas fa-user"></i>
+                                    <input type="text" required name="input-name" id="input-name"
+                                        class="footer__content-sub-input-name" placeholder="Name">
+                                </label>
+                                <label class="footer__content-wrap-input" for="input-email">
+                                    <i class="footer__content-sub-input-icon far fa-envelope"></i>
+                                    <input type="email" required name="input-email" id="input-email"
+                                        class="footer__content-sub-input-email" placeholder="Email">
+                                </label>
+                                <input type="submit" value="SUBSCRIBE" class="footer__content-sub-btn">
+                            </form>
+                        </div>
+                        <div class="col l-3 m-6 c-12 pdl-30 mt60">
+                            <h5 class="footer__content-social-title">Our Instagram</h5>
+                            <span class="footer__content-social-desc">Aliquam lorem ante, dapibus inviver raqui feugiat
+                                a, tellus. Phasellus null</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <span>Powered by @</span>
+                <a href="https://www.facebook.com/profile.php?id=100034702014116" target="_blank" class="footer__copyright-link">Thanh Tú</a>
+            </div>
+        </footer>
+
+        <!-- Modal Auth -->
+        <div class="modal js-modal">
+            <div class="modal__overlay"></div>
+
+            <div class="modal__body">
+                <!-- Modal Login -->
+                <div class="auth-form modal__login js-modal-container">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <a class="auth-form__header-left" href="#">
+                                    <span>LOGIN</span>
+                                </a>
+
+                            <a class="auth-form__header-right js-btn-register" href="#">
+                                    <span>REGEISTER</span>
+                                </a>
+                        </div>
+                        <div class="auth-form__wrap-content">
+                            <div class="auth-form__content">
+                                <h4 class="auth-form__content-title hidden-mobile">Sign In Here</h4>
+                                <span class="auth-form__content-desc hidden-mobile">Log into your account in just a few simple steps.</span>
+                                <form action="">
+                                    <label for="username" class="auth-form__wrap-input">
+                                        <i class="auth-form__wrap-input-icon fas fa-user"></i>
+                                        <input style="margin-bottom: 6px" type="text" name="username" id="username" class="auth-form__input" required placeholder="User Name">
+                                    </label>
+                                    <label for="password" class="auth-form__wrap-input">
+                                        <i class="auth-form__wrap-input-icon far fa-lock"></i>
+                                        <input type="password" name="password" required id="password" class="auth-form__input" placeholder="Password">
+                                    </label>
+                                    <div class="auth-form__rmb-pw">
+                                        <input type="checkbox">
+                                        <span>Remember me</span>
+                                    </div>
+                                    <a href="#" class="auth-form__forgot-pw">Last Your Password?</a>
+                                    <input type="submit" value="SIGN IN" class="auth-form__login-btn">
+                                </form>
+                            </div>
+                            <div class="auth-form__select-login">Sign in with Facebook or Google+</div>
+                        </div>
+                    </div>
+                    <div class="auth-form__socials">
+                        <a class="auth-form__social-left" href="#">
+                                <span>FACEBOOK</span>
+                            </a>
+                        <a class="auth-form__social-right" href="#">
+                                <span>GOOGLE+</span>
+                            </a>
+                    </div>
+                </div>
+
+                <!-- Modal Register -->
+                <div class="auth-form modal__register js-modal-container">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <a class="auth-form__header-right js-btn-login" href="#">
+                                    <span>LOGIN</span>
+                                </a>
+
+                            <a class="auth-form__header-left" href="#">
+                                    <span>REGEISTER</span>
+                                </a>
+                        </div>
+                        <div class="auth-form__wrap-content">
+                            <div class="auth-form__content">
+                                <h4 class="auth-form__content-title hidden-mobile">Register Now!</h4>
+                                <span class="auth-form__content-desc hidden-mobile">Join the SetSail community today & set up a free account.</span>
+                                <form action="">
+                                    <label for="" class="auth-form__wrap-input">
+                                        <i class="auth-form__wrap-input-icon fas fa-user"></i>
+                                        <input style="margin-bottom: 6px" type="text" class="auth-form__input" required placeholder="User Name">
+                                    </label>
+                                    <label for="" class="auth-form__wrap-input">
+                                        <i class="auth-form__wrap-input-icon fal fa-envelope"></i>
+                                        <input style="margin-bottom: 6px" type="email" class="auth-form__input" required placeholder="Email">
+                                    </label>
+                                    <label for="" class="auth-form__wrap-input">
+                                        <i class="auth-form__wrap-input-icon far fa-lock"></i>
+                                        <input style="margin-bottom: 6px" type="password" required class="auth-form__input" placeholder="Password">
+                                    </label>
+                                    <label for="" class="auth-form__wrap-input">
+                                        <i class="auth-form__wrap-input-icon far fa-lock"></i>
+                                        <input type="password" required class="auth-form__input" placeholder="Repeat Password">
+                                    </label>
+                                    <input type="submit" value="REGEISTER" class="auth-form__login-btn">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal form -->
+    <script>
+        const userbtns = document.querySelectorAll('.js-user-btn')
+        const loginbtn = document.querySelector('.js-btn-login')
+        const registerbtn = document.querySelector('.js-btn-register')
+        const modalRegister = document.querySelector('.modal__register')
+        const modalLogin = document.querySelector('.modal__login')
+        const modal = document.querySelector('.js-modal')
+        const modalContainers = document.querySelectorAll('.js-modal-container')
+
+        // Them class open vao login modal
+        function showModalLogin() {
+            modal.classList.add('open')
+            modalLogin.classList.add('open')
+        }
+
+        // Xoa class open o modal login
+        function hiddenModalLogin() {
+            modalLogin.classList.remove('open')
+        }
+
+        // Them class open vao register modal
+        function showModalRegister() {
+            modalRegister.classList.add('open')
+        }
+
+        // Xoa class open o modal register
+        function hiddenModalRegister() {
+            modalRegister.classList.remove('open')
+        }
+
+        function hiddenAuthForm() {
+            modal.classList.remove('open')
+            modalLogin.classList.remove('open')
+            modalRegister.classList.remove('open')
+        }
+
+        for (const userbtn of userbtns) {
+            userbtn.addEventListener('click', showModalLogin)
+        }
+
+        loginbtn.addEventListener('click', showModalLogin)
+        loginbtn.addEventListener('click', hiddenModalRegister)
+
+        registerbtn.addEventListener('click', showModalRegister)
+        registerbtn.addEventListener('click', hiddenModalLogin)
+
+        // Click ra ngoai de dong
+        for (const modalContainer of modalContainers) {
+            modal.addEventListener('click', hiddenAuthForm)
+            modalContainer.addEventListener('click', function(event) {
+                event.stopPropagation()
+            })
+        }
+    </script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            easing: 'ease-in-out',
+            once: true,
+            mirror: true,
+            duration: 500
+        });
+    </script>
+
+    <!-- CoutUp -->
+    <script type="text/javascript">
+        $(".container__count-item-title").counterUp({
+            delay: 80,
+            time: 1600
+        });
+    </script>
+
+    <!-- Video JS -->
+    <script>
+        const playBtn = document.querySelector('.container__video-play-btn')
+        const modalVideo = document.querySelector('.container__video-modal')
+        const video = document.querySelector('.container__video-play')
+
+        playBtn.onclick = function(event) {
+            modalVideo.style.display = "block";
+            video.style.display = "block";
+            video.src = "https://player.vimeo.com/video/127347999?title=0&amp;byline=0&amp;portrait=0;autoplay=1"
+            event.stopPropagation();
+        }
+        modalVideo.onclick = function() {
+            modalVideo.style.display = "none";
+            video.style.display = "none";
+            video.src = ""
+        }
+    </script>
+</body>
+
+</html>
